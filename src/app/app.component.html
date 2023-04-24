@@ -1,0 +1,37 @@
+<header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center">
+    <h1 class="logo me-auto"><a href="javascript:void(0);" routerLink="/">KOVAI</a></h1>
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a href="javascript:void(0);" routerLink="/">Home</a></li>
+        <li><a href="javascript:void(0);" routerLink="/about">About</a></li>
+        <li class="dropdown"><span>Services</span><i class="bi bi-chevron-down"></i>
+          <ul>
+            <li><a href="javascript:void(0);" routerLink="/billing">Billing</a></li>
+            <li><a href="javascript:void(0);" routerLink="/overtime">OverTime</a></li>
+          </ul>
+        <li class="dropdown"><span>Patients</span> <i class="bi bi-chevron-down"></i>
+          <ul>
+            <li><a href="javascript:void(0);" routerLink="/inpatient">InPatients</a></li>
+            <li><a href="javascript:void(0);" routerLink="/outpatient">OutPatients</a></li>
+          </ul>
+        <li class="dropdown"><span>Clinical</span> <i class="bi bi-chevron-down"></i>
+          <ul>
+            <li><a  href="javascript:void(0);" routerLink="/departments">Departments</a></li>
+            <li><a  href="javascript:void(0);" routerLink="/doctors">Doctors</a></li>
+            <li><a  href="javascript:void(0);" routerLink="/nursing">Nursing</a></li>
+          </ul>
+          <li class="dropdown"><span>Account</span> <i class="bi bi-chevron-down"></i>
+            <ul>
+              <li><a href="javascript:void(0);" routerLink="/login">Login</a></li>
+              <li><a href="javascript:void(0);" routerLink="/register">Register</a></li>
+            </ul>
+        <li><a href="javascript:void(0);" routerLink="/contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <a href="javascript:void(0);" routerLink="/appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Book </span>Appointment</a>
+  </div>
+</header>
+
+<router-outlet></router-outlet>
